@@ -76,6 +76,10 @@ nav {
     margin: auto;
 }
 
+.flex-container-big {
+    padding: 35px 0 35px 0;
+}
+
 .split {
     height: 400px;
     display: flex;
@@ -113,7 +117,7 @@ footer {
     display: flex;
     width: 60%;
     margin: 0 auto 20px auto;
-    padding-top: 5px;
+    padding-top: 8px;
 
 }
 
@@ -121,16 +125,19 @@ footer {
     background-color: #F08080;
     height: 450px;
     width: 30%;
+    border: 2px dashed black;
 }
 
 .footer-right {
     background-color: #20B2AA;
     height: 450px;
     width: 70%;
+    display: flex;
 }
 
 .flex-right {
     width: 25%;
+    border: 2px dashed black;
 }
 
 .logo-CTA {
