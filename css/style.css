@@ -27,8 +27,7 @@ nav {
 }
 
 .navbar-item {
-    border-color: black;
-    border-style: dashed;
+    border: 2px dashed black;
 }
 
 .logo, .login {
@@ -53,5 +52,57 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+.hotpink-box {
+    background-color: #EE82EE;
+    width: 40%;
+    height: 310px;
+    border: 2px dashed black;
+}
+
+
+/* MAIN */
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.lightgrey {
+    background-color: #D3D3D3;
+}
+
+
+
+.blue-box {
+    background-color: #1E90FF;
+}
+
+.pink-box {
+    background-color: #FFC0CB;
+}
+
+.green-box {
+    background-color: #228B22;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #23272A;
+}
+
+.logo-CTA {
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer, button {
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+}
+
+
+
 
 
