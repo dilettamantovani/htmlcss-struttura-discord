@@ -21,7 +21,7 @@ nav {
 
 .navbar {
     background-color: #DAA520;
-    width: 70%;
+    width: 60%;
     margin: auto;
     display: flex;
 }
@@ -41,7 +41,7 @@ nav {
 .menu {
     width: 60%;
     display: flex;
-    justify-content: space-around;
+        justify-content: space-around;
 }
 
 /* main header */
@@ -50,7 +50,7 @@ nav {
     background-color: #00008B;
     padding: 35px;
     display: flex;
-    justify-content: center;
+        justify-content: center;
 }
 
 .hotpink-box {
@@ -71,18 +71,36 @@ nav {
     background-color: #D3D3D3;
 }
 
+.flex-content {
+    width: 60%;
+    margin: auto;
+}
 
+.split {
+    height: 400px;
+    display: flex;
+    padding: 35px 0;
+}
 
 .blue-box {
     background-color: #1E90FF;
+    width: 60%;
 }
 
 .pink-box {
     background-color: #FFC0CB;
+    width: 40%;
 }
 
 .green-box {
     background-color: #228B22;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.pink-box, .blue-box, .green-box {
+    border: 2px dashed black;
 }
 
 
@@ -91,15 +109,44 @@ footer {
     background-color: #23272A;
 }
 
+.footer-main {
+    display: flex;
+    width: 60%;
+    margin: 0 auto 20px auto;
+    padding-top: 5px;
+
+}
+
+.footer-left {
+    background-color: #F08080;
+    height: 450px;
+    width: 30%;
+}
+
+.footer-right {
+    background-color: #20B2AA;
+    height: 450px;
+    width: 70%;
+}
+
+.flex-right {
+    width: 25%;
+}
+
 .logo-CTA {
     background-color: #7FFFD4;
+    width: 60%;
+    height: 40px;
+    margin: 20px auto 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-footer, button {
     background-color: #FFB6C1;
     border: 2px dashed black;
+    padding: 1px 3px;
 }
 
 
