@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+}
+
+
+/* HEADER */
+header {
+    background-color: #ADD8E6;
+    padding-bottom: 3px;
+}
+/* nav */
+nav {
+    padding: 10px 0;
+}
+
+.navbar {
+    background-color: #DAA520;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.navbar-item {
+    border-color: black;
+    border-style: dashed;
+}
+
+.logo, .login {
+    width: 20%;
+}
+
+.login {
+    text-align: end;
+}
+
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* main header */
+
+.main-header {
+    background-color: #00008B;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
