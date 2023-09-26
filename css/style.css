@@ -28,6 +28,7 @@ nav {
 
 .navbar-item {
     border: 2px dashed black;
+    padding: 3px;
 }
 
 .logo, .login {
@@ -41,7 +42,11 @@ nav {
 .menu {
     width: 60%;
     display: flex;
-        justify-content: space-around;
+    justify-content: space-around;
+}
+
+.menu-item {
+    padding: 0 5px;
 }
 
 /* main header */
